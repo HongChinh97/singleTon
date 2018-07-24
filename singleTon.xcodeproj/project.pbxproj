@@ -12,6 +12,8 @@
 		84E517B520FC85F60053070B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E517B320FC85F60053070B /* Main.storyboard */; };
 		84E517B720FC85F70053070B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E517B620FC85F70053070B /* Assets.xcassets */; };
 		84E517BA20FC85F70053070B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E517B820FC85F70053070B /* LaunchScreen.storyboard */; };
+		84E517C220FC86180053070B /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E517C120FC86180053070B /* TableViewController.swift */; };
+		84E517C420FC86320053070B /* SingleTon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E517C320FC86320053070B /* SingleTon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84E517B620FC85F70053070B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84E517B920FC85F70053070B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84E517BB20FC85F70053070B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E517C120FC86180053070B /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		84E517C320FC86320053070B /* SingleTon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				84E517AF20FC85F60053070B /* AppDelegate.swift */,
+				84E517C320FC86320053070B /* SingleTon.swift */,
+				84E517C120FC86180053070B /* TableViewController.swift */,
 				84E517B120FC85F60053070B /* ViewController.swift */,
 				84E517B320FC85F60053070B /* Main.storyboard */,
 				84E517B620FC85F70053070B /* Assets.xcassets */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84E517B220FC85F60053070B /* ViewController.swift in Sources */,
+				84E517C420FC86320053070B /* SingleTon.swift in Sources */,
+				84E517C220FC86180053070B /* TableViewController.swift in Sources */,
 				84E517B020FC85F60053070B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
